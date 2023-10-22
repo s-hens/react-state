@@ -2,6 +2,10 @@
 // CONTROLLING STATE //
 ///////////////////////
 
+// Step 0. Things to know about all hooks, including useState:
+// Hooks can only be called from the top level of a functional component.
+// Hooks can’t be called from inside loops or conditions.
+
 // Step 1. Import useState hook. It comes with React by default.
 import { useState } from "react"
 
