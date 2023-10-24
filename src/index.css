@@ -8,7 +8,7 @@ body {
 main {
   margin: 0;
   padding: 50px;
-  height: calc(100vh - 100px);
+  height: calc(50vh - 100px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +19,7 @@ main div {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -31,6 +31,11 @@ button {
   border: 2px solid #000000;
   border-bottom: 4px solid #000000;
   padding: 10px 20px;
+  margin-left: 10px;
+}
+
+button:first-of-type {
+  margin: 0;
 }
 
 button:hover {
@@ -42,3 +47,22 @@ button:active {
   transform: translateY(2px);
 }
 
+fieldset {
+  border: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+fieldset:first-of-type {
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 50px 0;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  border: 2px solid #000000;
+  padding: 5px;
+}
